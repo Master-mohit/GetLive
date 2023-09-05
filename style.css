@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color:  #C3BBB1;
+}
+#main{
+    background-color: #1C1C19;
+    overflow-x: hidden;
+}
+#page1{
+    width: 100vw;
+    background-color: #C3BBB1;
+    position: relative;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1.8px solid rgba(0, 0, 0, 0.384);
+}
+h1{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#nav img{
+    width: 125px;
+   margin-right: 100px;
+}
+#elems{
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    
+}
+#image img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all ease 1s;
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+   
+}
+#elem1#image:hover img{
+    scale: 1;
+    transition: all ease-in-out;
+}
+
+#elem1 h1{
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: canopee;
+}
+#elem1 span{
+    background-color: red;
+    color: #fff;
+    padding: 2px 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#elem1 p{
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 10px;
+    font-family: Domaine Disp Cond ;
+}
+#elem2{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    border-left: 1px solid #00000062;
+    border-right: 1px solid #0000004f;
+    padding: 0 30px;
+}
+#elem2 h1{
+    font-size: 48px;
+    letter-spacing: 1.3;
+    font-weight: 900;
+    font-family: canopee;
+    
+}
+#elem2 h2{
+    font-size: 28px;
+    font-weight: 200;
+    padding-top: 12px;
+    line-height: 1.5;
+}
+#elem2 h3{
+    padding-top: 20px;
+    font-size: 15px;
+}
+#elem2 span{
+    color: black;
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    
+}
+#elem3 img :hover{
+    scale: 1;
+    transition: all ease 1s;
+}
+#elem3 h1{
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: canopee;
+}
+#elem3 span{
+    background-color: red;
+    color: #fff;
+    padding: 2px 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#elem3 p{
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+ h4{
+    width: 100%;
+    font-size: 460px;
+    text-transform: uppercase;
+    font-family: canopee;
+    background-color:#1C1C19;
+    margin: 0 2px;
+    color:  #C3BBB1;
+    line-height: 400px;
+    text-align: center;
+
+}
+#page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #C3BBB1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page2 #left{
+    height: 100%;
+    width: 33%;
+    border-right: 1px solid #00000075;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+#left h1{
+    font-size: 80px;
+    font-weight: 100;
+    font-family: canopee;
+    text-transform: uppercase;
+    line-height: 0.9;
+   padding-top: 30px;
+   padding-left: 20px;
+}
+#left h1 span{
+    font-size: 140px;
+    font-weight: 600;
+    font-family: canopee;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    line-height: 0.9;
+}
+#left img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+#left p{
+    font-size: 30px;
+
+}
+#left p span{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: canopee;
+    background-color: #1C1C19;
+    color: #C3BBB1;
+}
+#page2 #right{
+    height: 100%;
+    width: 64%;
+    padding: 0 20px;
+}
+#right img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+#right h1{
+    padding-top: 40px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 0.9;
+    font-family: canopee;
+    padding-left: 40px;
+}
+#page3{
+    height: 70vh;
+    width: 100%;
+    background-color: #C3BBB1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page3 #left1 h1{
+    font-size: 350px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: canopee;
+    color: #C3BBB1;
+    background-color: #1C1C19;
+    margin-left: 25px;
+    padding: 0px 25px;
+}
+#page3 #right1 img{
+    height: 100%;
+    margin-right: 50px;
+}
+#page4{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #C3BBB1;
+   color: #1C1C19;
+}
+#page4 #one{
+    width: 30%;
+    height: 100%;
+
+    padding: 0 10px;
+
+}
+#one h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: canopee;
+    line-height: 2;
+
+   
+    
+}
+#one h2{
+    font-size: 33px;
+    text-transform: uppercase;
+    font-family: domain;
+   
+    font-weight: 400;
+    
+}
+#one h3{
+    font-size: 33px;
+    text-transform: uppercase;
+    font-family: domain;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+#page4 #two{
+    width: 32%;
+    height: 100%;
+    border-right: 1px solid #0000006c;
+    border-left: 1px solid #0000007a;
+    padding: 0px 20px;
+}
+#two img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out;
+}
+ #two img :hover{
+    scale: 1;
+    transition: all ease-in-out;
+}
+#two h1{
+    font-size: 25px;
+    font-family: canopee;
+    padding-bottom: 10px;
+}
+#two h2{
+    font-size: 22px;
+
+}
+#page4 #three{
+    width: 35%;
+    height: 100%;
+    line-height: 0.9;
+    padding-left: 10px;
+}
+#three h1{
+    font-size: 80px;
+    font-family: canopee;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#three h1 span{
+    font-size: 170px;
+    font-family: canopee;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+#three h2{
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 200;
+}
+#three h2 span{
+    font-size: 80px;
+    font-weight: 200;
+    font-family: canopee;
+    background-color: #1C1C19;
+    color: #C3BBB1;
+}
+#page5{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C3BBB1;
+   
+
+}
+#page5 #left3 img{
+    width: 80%;
+    height: 30%;
+    background-color: red;
+    object-fit: cover;
+    
+}
+#page5 #right3 {
+    width: 55%;
+    height: 100%;
+   
+}
+#right3 p{
+       font-family: domain;
+       color: #2f2f2f;
+        font-size: 30px;
+        font-weight: 200;
+        padding: 35px 20px ;
+        background-color: #C3BBB1;
+    }
+    #right3 #anda{
+        width: 100%;
+        height: 170px;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.452);
+        margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+      overflow: hidden;
+       margin-right: 50px;
+        
+    }
+    #right3 #anda h1{
+        font-size: 55px;
+        font-weight: 900;
+        font-family: canopee;
+        height: 100%;
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+        transform: translateX(-26%);
+       flex-wrap: nowrap;
+        transition: all ease 0.6s;
+       
+    }
+    #anda img{
+        height: 60px;
+        transform: translateX(-145%);
+        transition: all ease 1s;
+        
+    }
+    #anda:hover img{
+       transform: translateX(25%);
+    
+    }
+    #anda h1:hover{
+        margin-left: 80px;
+        font-size: 5px;
+    }
+    #page6{
+        width: 100%;
+        height: 40%;
+        background-color: #C3BBB1;
+    }
+    #page6 #name{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        border-top: 1px solid #000;
+        padding: 20px 10px;
+    }
+    #name #names h1 {
+       font-size: 40px;
+       font-weight: 400;
+       
+    }
+    #name #names h2 {
+        font-size: 70px;
+        font-weight: 900;
+        font-family: canopee;
+        border-bottom: 1px solid #00000085;
+    }
+    #names h1 span{
+        font-size: 80px;
+    
+    }
+ #page7{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ #left-pic{
+    width: 70%;
+    height: 100%;
+   background-color: #C3BBB1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+#left-pic img{
+    width: 170%;
+    height: 330px;
+    object-fit: cover;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    
+ }
+ #left-pic h1{
+    font-size: 200px;
+    padding-left: 200px;
+    font-family: canopee;
+    padding-bottom: 120px;
+    color: #1C1C19;
+    padding-top: 70px;
+    padding-bottom: 30px;
+ }
+ #left-pic h1 span{
+    font-size: 190px;
+    padding-right: 20px;
+    padding-top: 50px;
+    color: #77472f;
+    
+    
+ }
+ #right-pic{
+    width: 50%;
+    height: 107%;
+
+ }
+ #right-pic img{
+    height: 97%;
+ }
+ #page8{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2f2f2f;
+    background-color: #C3BBB1;
+ }
+ #page8 #box{
+     width: 80%;
+     height: 250px;
+     border-radius: 5%;
+     border: 1.5px solid rgba(0, 0, 0, 0.295);
+     padding: 10px 20px;
+     transition: all ease 0.3s;
+ }
+ #box:hover {
+    margin-right: 12vh;
+    transition: all ease 0.3s;
+    
+ }
+ #box h1{
+    font-size: 22px;
+    font-weight: 400;
+ }
+ #box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 30px;
+ }
+ #box h2{
+    text-transform: uppercase;
+    font-family: canopee;
+ }
+ #page9{
+    width: 100%;
+    background-color: #C3BBB1;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-bottom: 1px solid #00000077;
+    border-top: 1px solid #00000057;
+
+ }
+ #page9::-webkit-scrollbar{
+    display: none;
+ }
+ #page9 h1{
+    font-size: 95px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    animation-name: anime;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    padding: 10px 0;
+ }
+ #page9:hover h1{
+    animation-play-state: paused;
+ }
+ #page9 h1 span{
+    font-family: canopee;
+    background-color: #1C1C19;
+    color: #C3BBB1;
+    padding: 0 12px;
+ }
+ @keyframes anime {
+    0%{
+        transform: translateX(0);
+    
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+ }
+ #Page10{
+    width: 100%;
+    height: 100px;
+    background-color: #C3BBB1;
+ }
